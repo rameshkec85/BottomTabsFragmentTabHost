@@ -25,6 +25,7 @@ public class MainActivity extends FragmentActivity {
 				Fragment1.class, b);
 		//
 		b = new Bundle();
+		System.out.print("hello git");
 		b.putString("key", "Contacts");
 		mTabHost.addTab(mTabHost.newTabSpec("contacts")
 				.setIndicator("Contacts"), Fragment2.class, b);
