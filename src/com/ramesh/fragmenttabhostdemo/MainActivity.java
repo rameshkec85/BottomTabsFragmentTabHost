@@ -6,7 +6,7 @@ import android.support.v4.app.FragmentTabHost;
 import android.view.Menu;
 
 public class MainActivity extends FragmentActivity {
-
+	//Testing Comment
 	private FragmentTabHost mTabHost;
 
 	@Override
